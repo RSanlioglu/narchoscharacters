@@ -1,0 +1,17 @@
+.characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+  
+.character {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+.addCharacter {
+    padding: 20px;
+  }
